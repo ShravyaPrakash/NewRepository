@@ -1,0 +1,401 @@
+﻿//problem 1 
+
+namespace swapnum
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b;
+            Console.WriteLine("Enter numbers");
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            swap(a, b);
+            Console.WriteLine("Actual numbers: {0} and {1}", a, b);
+            gswap(ref a, ref b);
+            Console.WriteLine("Actual numbers: {0} and {1}", a, b);
+            Console.ReadLine();
+        }
+        static void swap(int a, int b)
+        {
+            int c;
+            c = a;
+            a = b;
+            b = c;
+            Console.WriteLine("Swapped numbers: {0} and {1}", a, b);
+        }
+        static void gswap(ref int a, ref int b)
+        {
+            int c;
+            c = a;
+            a = b;
+            b = c;
+            Console.WriteLine("Swapped numbers: {0} and {1}", a, b);
+
+
+        }
+    }
+}
+
+
+
+// problem 2
+
+using system;
+public class multiply
+{
+    public static void main()
+    {
+        int num1, num2, num3;
+
+        console.write("input the first number to multiply: ");
+        num1 = convert.toint32(console.readline());
+
+        console.write("input the second number to multiply: ");
+        num2 = convert.toint32(console.readline());
+
+        console.write("input the third number to multiply: ");
+        num3 = convert.toint32(console.readline());
+
+        int result = num1 * num2 * num3;
+        console.writeline("output: {0} x {1} x {2} = {3}",
+                            num1, num2, num3, result);
+    }
+}
+
+//problem 3
+
+using system;
+public class calculation
+{
+    public static void main()
+    {
+        console.write("enter a number: ");
+        int num1 = convert.toint32(console.readline());
+
+        console.write("enter another number: ");
+        int num2 = convert.toint32(console.readline());
+
+        console.writeline("{0} + {1} = {2}", num1, num2, num1 + num2);
+        console.writeline("{0} - {1} = {2}", num1, num2, num1 - num2);
+        console.writeline("{0} x {1} = {2}", num1, num2, num1 * num2);
+        console.writeline("{0} / {1} = {2}", num1, num2, num1 / num2);
+        console.writeline("{0} mod {1} = {2}", num1, num2, num1 % num2);
+    }
+}
+
+//problem 4
+
+using system;
+using system.io;
+public class average
+{
+    public static void main()
+    {
+        double number1, number2, number3, number4;
+
+        console.write("enter the first number: ");
+        number1 = convert.todouble(console.readline());
+
+        console.write("enter the second number: ");
+        number2 = convert.todouble(console.readline());
+
+        console.write("enter the third number: ");
+        number3 = convert.todouble(console.readline());
+
+        console.write("enter the fourth number: ");
+        number4 = convert.todouble(console.readline());
+
+        double result = (number1 + number2 + number3 + number4) / 4;
+        console.writeline("the average of {0}, {1}, {2}, {3} is: {4} ",
+     number1, number2, number3, number4, result);
+    }
+}
+
+//problem 5
+
+using system;
+public class maths
+{
+    public static void main()
+    {
+        int number1, number2, number3;
+
+        console.write("enter first number - ");
+        number1 = convert.toint32(console.readline());
+
+        console.write("enter second number - ");
+        number2 = convert.toint32(console.readline());
+
+        console.write("enter third number - ");
+        number3 = convert.toint32(console.readline());
+
+        console.write("result of specified numbers {0}, {1} and {2}, (x+y)·z is {3} and x·y + y·z is {4}\n\n",
+            number1, number2, number3, ((number1 + number2) * number3), (number1 * number2 + number2 * number3));
+    }
+}
+
+
+//problem 6
+
+using system;
+public class age
+{
+    public static void main()
+    {
+        int age;
+        console.write("enter your age ");
+        age = convert.toint32(console.readline());
+        console.write("you look older than {0} ", age);
+    }
+}
+
+//problem 7
+
+using system;
+public class digit
+{
+    public static void main()
+    {
+        int num;
+
+        console.writeline("enter a digit: ");
+        num = convert.toint32(console.readline());
+
+        console.write(num);
+        console.write(" ");
+        console.write(num);
+        console.write(" ");
+        console.write(num);
+        console.write(" ");
+        console.write(num);
+        console.writeline();
+
+        console.write(num);
+        console.write(num);
+        console.write(num);
+        console.writeline(num);
+        console.writeline();
+        console.writeline("{0} {0} {0} {0}", num);
+
+
+        console.writeline("{0}{0}{0}{0}", num);
+    }
+}
+
+//problem 8
+
+using system;
+public class digits
+{
+    public static void main()
+    {
+        console.writeline("enter a number");
+        int x = int32.parse(console.readline());
+        console.writeline("{0}{0}{0}", x);
+
+        console.writeline("{0} {0}", x);
+
+        console.writeline("{0} {0}", x);
+
+        console.writeline("{0} {0}", x);
+
+        console.writeline("{0}{0}{0}", x);
+    }
+}
+
+
+//problem 9
+
+using system;
+public class ecelsiustokelvin
+{
+    public static void main()
+    {
+        console.writeline("enter temperature in celsius:");
+        int celsius = int32.parse(console.readline());
+        console.writeline("kelvin= {0}", celsius + 273);
+        console.writeline("fahrenhit = {0}", celsius * 18 / 10 + 32);
+    }
+}
+
+//problem 10
+
+using system;
+using system.collections.generic;
+
+public class trueorfalse
+{
+    static void main(string[] args)
+    {
+        console.writeline("\ninput first integer:");
+        int x = convert.toint32(console.readline());
+        console.writeline("input second integer:");
+        int y = convert.toint32(console.readline());
+        console.writeline("check if one is negative and one is positive:");
+        console.writeline((x > 0 && y > 0) || (x > 0 && y < 0));
+    }
+}
+
+//problem 11
+
+using system;
+using system.collections.generic;
+
+public class falseortrue
+{
+    static void main(string[] args)
+    {
+        console.writeline("\ninput first integer:");
+        int x = convert.toint32(console.readline());
+        console.writeline("input second integer:");
+        int y = convert.toint32(console.readline());
+        console.writeline("check if one is negative and one is positive:");
+        console.writeline(x > 0 && y > 0);
+    }
+}
+
+//problem 12
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _18_handson
+{
+    internal class Exercise
+    {
+        static void Main(string[] args)
+        {
+            string str = "";
+            string str1 = string.Empty;
+            string str2;
+            Console.WriteLine("enter first number: ");
+            string i1 = Console.ReadLine();
+            Console.WriteLine("enter second number: ");
+            string i2 = Console.ReadLine();
+            bool b1 = string.IsNullOrEmpty(i1);
+            Console.WriteLine(b1);
+            bool b2 = string.IsNullOrEmpty(i2);
+            Console.WriteLine(b1);
+        }
+    }
+}
+
+//problem 13
+
+using system;
+
+public class metertokm
+{
+    public static double metertokilometer(double meter)
+    {
+        double km = 0;
+
+        km = meter / 1000;
+
+        return km;
+    }
+
+    public static double kilometertometer(double km)
+    {
+        double meter = 0;
+
+        meter = km * 1000;
+
+        return meter;
+    }
+
+    static void main()
+    {
+        double meter = 0;
+        double km = 0;
+
+        console.write("enter the value of meter : ");
+        meter = double.parse(console.readline());
+
+        km = metertokilometer(meter);
+        console.writeline("kilometer : " + km + "km");
+
+        console.write("enter the value of kilometer : ");
+        km = double.parse(console.readline());
+
+        meter = kilometertometer(km);
+        console.writeline("meter : " + meter + "m");
+
+    }
+}
+
+//problem 14
+
+using system;
+namespace celsius
+{
+    class celsiustofahrenheit
+    {
+        static void main(string[] args)
+        {
+            console.write("enter temperature in celsius : ");
+            double celsius = convert.todouble(console.readline());
+            double fahrenheit = ((celsius * 9) / 5) + 32;
+            console.writeline("the converted fahrenheit temperature is : " + fahrenheit);
+            console.readline();
+        }
+    }
+}
+
+//program 15
+
+using system;
+
+class ustoindian
+{
+    public static void main(string[] args)
+    {
+        console.writeline("please enter dollars:");
+        double dollars = convert.todouble(console.readline());
+        double rupees = dollars * 64;
+        console.writeline(rupees + " rupees");
+    }
+}
+
+// problem 16
+
+namespace IncrementalAssignment
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string first_name, last_name;
+            Console.WriteLine("Enter your first name");
+            first_name = Console.ReadLine();
+            Console.WriteLine("Enter your last name");
+            last_name = Console.ReadLine();
+            string user_name, pwd;
+            Console.WriteLine("Enter uname");
+            user_name = Console.ReadLine();
+            Console.WriteLine("Password");
+            pwd = Console.ReadLine();
+            if ((first_name == user_name) && (last_name == pwd) && (!String.IsNullOrEmpty(user_name)) && (!String.IsNullOrEmpty(pwd)))
+                Console.WriteLine("Welcome to my app" + " " + first_name + " " + last_name);
+            else
+            {
+
+                if (first_name != user_name && last_name != pwd)
+                    Console.WriteLine("Invalid Credentials");
+                else if (first_name != user_name)
+                    Console.WriteLine("uname unmatched");
+                else if ((String.IsNullOrEmpty(user_name)) || (String.IsNullOrEmpty(pwd)))
+                    Console.WriteLine("Username or password can't be null");
+                else
+                    Console.WriteLine("Invalid Password");
+
+            }
+            Console.ReadLine();
+        }
+    }
+}
+
