@@ -1,6 +1,7 @@
 create database Sept20
 use Sept20
 
+-- Problem 1
 --1) Create the table Member, Book and Issue without any constraints as mentioned in the schema description above.
 create table Member
 (Member_ID numeric(5) primary key, 
@@ -193,19 +194,21 @@ select upper(Author) as Author_In_Upper from Book order by Book_Name desc
 --13) Show the data in the following format :
 select Book_No,('is written by') as '--------------------',Book_Name from Book
 
-select * from Book where Category like '%D'
 
-select Lib_Issue_Id, Issue_Date, Return_Date, (Return_Date - Issue_Date) as No_of_Days_Book_issued  from Issue --error
 
+--20)	Display the count of total no of books issued to Member 101.
 select count(Book_No) from Issue where Member_Id = 101
 
+--21) Display the total penalty due for all the members.
 select sum(Penalty_Amount) as Total_Penalty from Member
 
+--22) Find the total cost of all the books that come under category Database.
 select sum(Cost) as Total_Cost from Book where Category = 'Database'
 
+--23) Find the cheapest book price in the library.
 select min(Cost) as Cheapest_Book from Book
 
-select avg(Cost) as Average_Price_Book from Book
+
 
 select * from Member
 select * from Issue
