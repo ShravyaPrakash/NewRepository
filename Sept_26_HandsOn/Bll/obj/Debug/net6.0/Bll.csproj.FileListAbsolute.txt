@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Sept26\Bll\bin\Debug\net6.0\Bll.deps.json
+C:\Users\HP\source\repos\Sept26\Bll\bin\Debug\net6.0\Bll.dll
+C:\Users\HP\source\repos\Sept26\Bll\bin\Debug\net6.0\Bll.pdb
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.AssemblyInfo.cs
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.dll
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\refint\Bll.dll
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\Bll.pdb
+C:\Users\HP\source\repos\Sept26\Bll\obj\Debug\net6.0\ref\Bll.dll
