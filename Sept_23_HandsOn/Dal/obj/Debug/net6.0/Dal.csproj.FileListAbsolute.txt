@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\Sept23\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\HP\source\repos\Sept23\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\HP\source\repos\Sept23\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\refint\Dal.dll
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\ref\Dal.dll
+C:\Users\HP\source\repos\Sept23\Dal\bin\Debug\net6.0\Bll.dll
+C:\Users\HP\source\repos\Sept23\Dal\bin\Debug\net6.0\Bll.pdb
+C:\Users\HP\source\repos\Sept23\Dal\obj\Debug\net6.0\Dal.csproj.CopyComplete
