@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\Sept27\bussinesslogic\bin\Debug\net6.0\bussinesslogic.deps.json
+C:\Users\HP\source\repos\Sept27\bussinesslogic\bin\Debug\net6.0\bussinesslogic.dll
+C:\Users\HP\source\repos\Sept27\bussinesslogic\bin\Debug\net6.0\bussinesslogic.pdb
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.AssemblyInfo.cs
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.dll
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\refint\bussinesslogic.dll
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\bussinesslogic.pdb
+C:\Users\HP\source\repos\Sept27\bussinesslogic\obj\Debug\net6.0\ref\bussinesslogic.dll
