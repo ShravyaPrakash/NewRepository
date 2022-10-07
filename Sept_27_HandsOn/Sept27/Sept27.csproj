@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0-rc.1.22426.10" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bussinesslogic">
+      <HintPath>..\bussinesslogic\bin\Debug\net6.0\bussinesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="helper">
+      <HintPath>..\helper\bin\Debug\net6.0\helper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
