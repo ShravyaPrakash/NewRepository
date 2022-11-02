@@ -1,0 +1,12 @@
+E:\c# assignment\masterpages\business\bin\Debug\business.dll
+E:\c# assignment\masterpages\business\bin\Debug\business.pdb
+E:\c# assignment\masterpages\business\obj\Debug\business.csproj.AssemblyReference.cache
+E:\c# assignment\masterpages\business\obj\Debug\business.csproj.CoreCompileInputs.cache
+E:\c# assignment\masterpages\business\obj\Debug\business.dll
+E:\c# assignment\masterpages\business\obj\Debug\business.pdb
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\bin\Debug\business.dll
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\bin\Debug\business.pdb
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\obj\Debug\business.csproj.AssemblyReference.cache
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\obj\Debug\business.csproj.CoreCompileInputs.cache
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\obj\Debug\business.dll
+E:\simplilearns\simplilearn-assignments\oct-3 assignments\masterpages\business\obj\Debug\business.pdb
